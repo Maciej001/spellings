@@ -10,13 +10,13 @@
 .btn-submit {
   width: 100%;
   padding: 12px 30px;
-  background: $blue;
+  background: $primary;
   color:      white;
   font-size: 1.75rem;
 
   &:hover {
     color: white;
-    background: lighten($blue, 7%);
+    background: $dark-primary;
   }
 }
 
@@ -24,10 +24,14 @@
   width: 100%;
   padding: 12px 30px;
   margin-top: 10px;
-  color: $grey;
-  background: $beige;
+  color: white;
+  background: $secondary-text;
   border:none;
   font-size: 1.75rem;
+  &:hover {
+    background: darken($secondary-text, 7%);
+    color: white;
+  }
 }
 
 // removing yellow background on input fields
@@ -35,7 +39,7 @@ input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
     &:focus {
       -webkit-box-shadow: 0 0 0px 1000px white inset;
-      border: 1px solid $blue;
+      border: 1px solid $accent;
     }
 }
 
@@ -53,13 +57,13 @@ input:-webkit-autofill {
   h4 {
     padding-bottom: 20px;
     margin: 0 0 20px 0;
-    border-bottom: 1px solid $light-grey;
-    color: $dark-blue;
+    border-bottom: 1px solid $divider-color;
+    color: $primary-text;
     
   }
 
   .error-msg {
-    color: $red;
+    color: $accent;
   }
   
 }

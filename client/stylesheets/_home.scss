@@ -8,7 +8,7 @@
   padding-top: 200px;
   text-align: center !important;
   height: 100% !important; 
-  background: url("/images/home.jpg")  no-repeat center center fixed;
+  background: url("/images/1.jpeg")  no-repeat center center fixed;
   background-size: cover;
   color: white;
 
@@ -18,7 +18,7 @@
 
   h1, p {
     color: white;
-    text-shadow: 0 0 10px $dark-brown;
+    text-shadow: 0 0 10px $primary-text;
   }
 
   p {
@@ -31,7 +31,7 @@
   }
 
   a.btn.btn-primary.btn-lg {
-    background: $blue;
+    background: $accent;
     color: white;
     border: none;
     box-shadow: 0 0 100px white;
